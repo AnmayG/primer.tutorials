@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Changelog • primer.tutorials</title>
+<title>Check Current Tutorial — check_current_tutorial • primer.tutorials</title>
 
 
 <!-- jquery -->
@@ -39,7 +39,10 @@
 
 
 
-<meta property="og:title" content="Changelog" />
+<meta property="og:title" content="Check Current Tutorial — check_current_tutorial" />
+<meta property="og:description" content="An add-in for formatting primer.tutorials.
+It uses format_tutorial() to format the tutorial Rmd open
+in the current editor" />
 
 
 
@@ -66,7 +69,7 @@
   <body data-spy="scroll" data-target="#toc">
     
 
-    <div class="container template-news">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -133,23 +136,30 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-      <h1 data-toc-skip>Changelog <small></small></h1>
-      <small>Source: <a href='https://github.com/ppbds/primer.tutorials/blob/master/NEWS.md'><code>NEWS.md</code></a></small>
+    <h1>Check Current Tutorial</h1>
+    <small class="dont-index">Source: <a href='https://github.com/ppbds/primer.tutorials/blob/master/R/check_current_tutorial.R'><code>R/check_current_tutorial.R</code></a></small>
+    <div class="hidden name"><code>check_current_tutorial.Rd</code></div>
     </div>
 
-    <div id="primertutorials-010" class="section level2">
-<h2 class="hasAnchor">
-<a href="#primertutorials-010" class="anchor" aria-hidden="true"></a>primer.tutorials 0.1.0</h2>
-<hr><ul><li>First release of ‘Tutorials for Preceptor’s Primer for Big Bayesian Data Science’.</li>
-</ul></div>
-  </div>
+    <div class="ref-description">
+    <p>An add-in for formatting primer.tutorials.</p>
+<p>It uses format_tutorial() to format the tutorial Rmd open
+in the current editor</p>
+    </div>
 
+    <div class="ref-usage sourceCode"><pre class='sourceCode r'><code><span class='fu'>check_current_tutorial</span><span class='op'>(</span><span class='op'>)</span></code></pre></div>
+
+
+    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
+
+    <p>current document OVERWRITTEN and formatted with correct chunk labels</p>
+
+  </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
       <h2 data-toc-skip>Contents</h2>
     </nav>
   </div>
-
 </div>
 
 
